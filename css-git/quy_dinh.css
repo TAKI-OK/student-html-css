@@ -1,0 +1,43 @@
+html{
+    font-family: sans-serif;
+}
+img{
+    width: 100%;
+}
+.logo-inline{
+    padding: 5px;
+    display: flex;
+}
+.logo{
+    width: 50px;
+}
+.header-logo{
+    width: 276px;
+    margin-left: 5px;
+    color: #143980;
+}
+.container{
+    margin: 0 350px;
+    border: 6px solid #143980;
+    background-color: #ddd;
+}
+.items{
+    border: 3px solid #98cdff;
+    margin: 3px;
+}
+.header{
+    text-align: center;
+}
+.content{
+    margin: 30px 20px;
+    color: #143980;
+}
+h1{
+    color: #da251c;
+}
+h1, h3, h4{
+    margin: 0;
+}
+i{
+    color: #143980;
+}
