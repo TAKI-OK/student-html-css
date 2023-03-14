@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+li{
+    list-style-type: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 46px;
+    background-color: #000;
+}
+.navigation{
+    display: flex;
+    margin: 0 10px;
+}
+.navigation > li{
+    width: 100px;
+    text-align: center;
+}
+.navigation > li > a{
+    display: inline-block;
+    height: 46px;
+    line-height: 46px;
+    text-decoration: none;
+    color: #fff;
+}
+.navigation > li:hover > a,
+.navigation > li:hover{
+    color: #000;
+    background-color: #fff;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 47px;
+    gap: 20px 10px;
+}
+.block{
+    border: 2px solid #000;
+    width: calc(calc(100% / 4) - 8px);
+    min-width: 300px;
+}
+.block .item-1{
+    background: url('../img-git/1.jpeg') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-2{
+    background: url('../img-git/2.jpeg') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-3{
+    background: url('../img-git/3.jpeg') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-4{
+    background: url('../img-git/4.jpeg') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-5{
+    background: url('../img-git/5.jpeg') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-6{
+    background: url('../img-git/6.webp') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-7{
+    background: url('../img-git/7.webp') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-8{
+    background: url('../img-git/8.webp') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-9{
+    background: url('../img-git/9.jpeg') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-10{
+    background: url('../img-git/10.webp') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-11{
+    background: url('../img-git/11.webp') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-12{
+    background: url('../img-git/12.jpeg') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-13{
+    background: url('../img-git/13.jpeg') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-14{
+    background: url('../img-git/14.jpeg') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-15{
+    background: url('../img-git/15.jpeg') center / cover no-repeat;
+    height: 300px;
+}
+.block .item-16{
+    background: url('../img-git/16.webp') center / cover no-repeat;
+    height: 300px;
+}
+.color-item{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 47px;
+    gap: 20px 10px;
+}
